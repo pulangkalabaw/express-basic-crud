@@ -1,0 +1,21 @@
+GET http://localhost:3000/users
+###
+GET http://localhost:3000/users/618b53a24e9a768d0112460b
+###
+PATCH http://localhost:3000/users/619128a82f1b64a43461d21d
+Content-Type: application/json
+
+{
+    "name": "Khurt Russel",
+    "age": 24
+}
+###
+POST http://localhost:3000/users/add
+Content-Type: application/json
+
+{
+    "name": "Khurt Russel",
+    "age": 24
+}
+###
+DELETE http://localhost:3000/users/619118c73a099ae3f1794ec5
